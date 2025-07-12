@@ -15,8 +15,8 @@ public class InitBean implements InitService {
 
     @Override
     public void initDatabase() {
-        Role admin = new Role("ADMIN");
-        em.persist(admin);
+//        Role admin = new Role("ADMIN");
+//        em.persist(admin);
 
         User user = new User("admin", "admin123", admin);
         em.persist(user);
