@@ -19,12 +19,16 @@
             <groupId>lk.banking.app</groupId>
             <artifactId>bank-core</artifactId>
             <version>1.0</version>
+
         </dependency>
 
         <dependency>
             <groupId>jakarta.platform</groupId>
             <artifactId>jakarta.jakartaee-api</artifactId>
+            <version>10.0.0</version>
             <scope>provided</scope>
         </dependency>
     </dependencies>
+
+    <build><finalName>${project.name}</finalName></build>
 </project>

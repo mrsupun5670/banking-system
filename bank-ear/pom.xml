@@ -44,10 +44,12 @@
                             <groupId>lk.banking.app</groupId>
                             <artifactId>bank-web</artifactId>
                             <contextRoot>/banking</contextRoot>
+                            <bundleFileName>bank-web.war</bundleFileName>
                         </webModule>
                         <ejbModule>
                             <groupId>lk.banking.app</groupId>
                             <artifactId>bank-ejb</artifactId>
+<!--                            <bundleFileName>bank-ejb.jar</bundleFileName>-->
                         </ejbModule>
                     </modules>
                 </configuration>
